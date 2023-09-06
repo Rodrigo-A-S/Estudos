@@ -11,8 +11,13 @@ html, body {
     background-color: #F0F2F5;
     overflow-x: hidden;
     font-size: 12px;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .facebook > h1 {
@@ -212,6 +217,6 @@ footer {
 
 .copyright {
     color: #8a8d91;
-    margin-top: 20px;
+    margin: 20px 0px 20px 0px;
     font-size: 11px;
 }
