@@ -182,6 +182,7 @@ footer {
     font-size: 12px;
     margin: 10em 0px 0px 0px;
     width: 100vw;
+    height: 100%;
     line-height: 19.2px;
 }
 
@@ -219,4 +220,28 @@ footer {
     color: #8a8d91;
     margin: 20px 0px 20px 0px;
     font-size: 11px;
+}
+
+@media screen and (min-width: 500px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    header {
+        padding: 90px 70px 132px 0px;
+    }
+
+    main {
+        padding: 90px 0px 132px 70px;
+    }
+
+    .footercontainer {
+        max-width: 980px;
+        margin: auto;
+    }
+
+    .linefooter {
+        max-width: 980px;
+    }
 }

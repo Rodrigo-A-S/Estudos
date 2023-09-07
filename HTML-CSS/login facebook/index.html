@@ -28,38 +28,40 @@
                 <p>Adicionar conta</p>
             </menu>
         </header>
+    
+
+        <main>
+            <form action="form.js" method="post" id="form">
+
+                <div class="fieldset">
+                    <label for="email-or-phone-number">
+                        <input type="email" name="email" id="email" placeholder="Email ou telefone" required autocomplete="email">
+                    </label>
+
+                    <label for="password">
+                        <input type="password" name="password" id="password" placeholder="Senha" required autocomplete="new-password">
+                    </label>
+                </div>
+
+                <button type="submit" class="submit">Entrar</button>
+
+                <a href="#" class="forgot">Esqueceu a senha?</a>
+
+                <div class="line">
+                    <hr>
+                </div>
+
+                <a href="#" class="new-acount">Criar nova conta</a>
+
+            </form>
+
+            <div class="subform">
+                <p><a href="#">Criar uma Página</a> para uma celebridade, uma marca ou uma <br> empresa.</p>
+            </div>
+            
+        </main>
+
     </div>
-
-    <main>
-        <form action="form.js" method="post" id="form">
-
-            <div class="fieldset">
-                <label for="email-or-phone-number">
-                    <input type="email" name="email" id="email" placeholder="Email ou telefone" required autocomplete="email">
-                </label>
-
-                <label for="password">
-                    <input type="password" name="password" id="password" placeholder="Senha" required autocomplete="new-password">
-                </label>
-            </div>
-
-            <button type="submit" class="submit">Entrar</button>
-
-            <a href="#" class="forgot">Esqueceu a senha?</a>
-
-            <div class="line">
-                <hr>
-            </div>
-
-            <a href="#" class="new-acount">Criar nova conta</a>
-
-        </form>
-
-        <div class="subform">
-            <p><a href="#">Criar uma Página</a> para uma celebridade, uma marca ou uma <br> empresa.</p>
-        </div>
-
-    </main>
 
     <footer>
         <div class="footercontainer">
